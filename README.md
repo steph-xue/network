@@ -39,6 +39,7 @@ All functions that show posts on the web application uses pagination, which sepa
    
 **2. Viewing a specific user's profile**  
    - You can access a specific user's profile by clicking on the user's username hyperlink on a post
+   - Your own profile can be accessed by clicking on your username tab in the navigation bar
    - Each profile displays the following:
       - The user's username
       - The number of people who follow the user and the number of people who the user follows
@@ -102,7 +103,7 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>
 
 **6. Viewing following posts page**
-   - The user can view a list of posts only from users who they current follow (sorted in reverse chronological order)
+   - The user can view a list of posts only from users who they currently follow (sorted in reverse chronological order)
    - This can be accessed via the 'Following' tab
 &nbsp;
 
