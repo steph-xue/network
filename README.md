@@ -23,20 +23,20 @@ The network project allows the user to view, create, like, and dislike posts, as
    - This can be accessed via the 'Network' logo or 'All Posts' tab
    - Each post displays the following:
      - User who made the post (with a hyperlink to their profile)
-     - Post contents
+     - Post content
      - Date and time post was made
      - Number of likes and dislikes
      - **Note**: Functions to edit, like, remove a like, dislike, and remove a dislike are only avaliable to users with login authentication
 &nbsp;
 
-![All Posts](/auctions/static/auctions/images/all_posts.png?raw=true "All Posts")
+![All Posts](/network/static/network/images/all_posts.png?raw=true "All Posts")
 <br></br>   
    
 **2. Viewing a specific user's profile**  
    - The
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Profile](/network/static/network/images/profile.png?raw=true "Profile")
 <br></br>
 
 
@@ -44,37 +44,43 @@ The network project allows the user to view, create, like, and dislike posts, as
 **1. Creating a new post**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Create Post](/network/static/network/images/create.png?raw=true "Create Post")
 <br></br>
 
 **2. Editing a post**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Edit Post](/network/static/network/images/edit.png?raw=true "Edit Post")
 <br></br>
 
 **3. Following/Unfollowing a user**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Follow](/network/static/network/images/follow.png?raw=true "Follow")
+<br></br>
+![Unfollow](/network/static/network/images/unfollow.png?raw=true "Unfollow")
 <br></br>
 
 **4. Liking/Removing a like from a post**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Like](/network/static/network/images/like.png?raw=true "Like")
+<br></br>
+![Remove like](/network/static/network/images/remove_like.png?raw=true "Remove Like")
 <br></br>
 
 **5. Disliking/Removing a dislike from a post**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Dislike](/network/static/network/images/dislike.png?raw=true "Dislike")
+<br></br>
+![Remove dislike](/network/static/network/images/remove_dislike.png?raw=true "Remove Dislike")
 <br></br>
 
 **6. Viewing following posts page**
 &nbsp;
 
-![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+![Following Posts](/network/static/network/images/following.png?raw=true "Following Posts")
 <br></br>
 
 
