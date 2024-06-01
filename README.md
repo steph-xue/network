@@ -62,8 +62,8 @@ All functions that show posts on the web application uses pagination, which sepa
 
 **2. Editing a post**
    - Users can edit a post they previously made
-   - This can be done by clicking on the edit button displayed underneath their post
-   - A pop up modal will allow the user to make changes to the current post content and save the changes
+   - This can be done by clicking on the edit button displayed underneath their own post
+   - A pop up modal will allow the user to make changes to the post content and save the changes
 &nbsp;
 
 ![Edit Button](/network/static/network/images/edit_button.png?raw=true "Edit Button")
