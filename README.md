@@ -43,7 +43,7 @@ All functions that show posts on the web application uses pagination, which sepa
       - The user's username
       - The number of people who follow the user and the number of people who the user follows
       - All of the user's posts (sorted in reverse chronological order)
-      - **Note**: Functions to follow and unfollow the user whose profile you are viewing is only avaliable to users with login authentication
+      - **Note**: Functions to follow and unfollow a user on their profile are only avaliable to users with login authentication
 &nbsp;
 
 ![Profile](/network/static/network/images/profile.png?raw=true "Profile")
@@ -53,7 +53,7 @@ All functions that show posts on the web application uses pagination, which sepa
 ## Features where login authentication is needed:
 **1. Creating a new post**
    - Can be accessed via the 'Create Post' tab
-   - Users can create a new post by providing the post's contents:
+   - Users can create a new post by providing the post's contents
    - The new post will specify the user as the creator of the post, and will display the date and time the post was made
 &nbsp;
 
@@ -72,6 +72,8 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>
 
 **3. Following/Unfollowing a user**
+   - Users can follow and unfollow other users
+   - This can be done by clicking on the follow or unfollow button located on a specific user's profile page
 &nbsp;
 
 ![Follow](/network/static/network/images/follow.png?raw=true "Follow")
@@ -80,6 +82,8 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>
 
 **4. Liking/Removing a like from a post**
+   - Users can like or remove a like from a specific post
+   - This can be done by clicking on the like or remove like button located at the bottom of a user's posts
 &nbsp;
 
 ![Like](/network/static/network/images/like.png?raw=true "Like")
@@ -88,6 +92,8 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>
 
 **5. Disliking/Removing a dislike from a post**
+   - Users can dislike or remove a dislike from a specific post
+   - This can be done by clicking on the dislike or remove dislike button located at the bottom of a user's posts
 &nbsp;
 
 ![Dislike](/network/static/network/images/dislike.png?raw=true "Dislike")
@@ -96,6 +102,8 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>
 
 **6. Viewing following posts page**
+   - The user can view a list of posts only from users who they current follow (sorted in reverse chronological order)
+   - This can be accessed via the 'Following' tab
 &nbsp;
 
 ![Following Posts](/network/static/network/images/following.png?raw=true "Following Posts")
