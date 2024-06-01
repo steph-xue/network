@@ -38,7 +38,12 @@ All functions that show posts on the web application uses pagination, which sepa
 <br></br>   
    
 **2. Viewing a specific user's profile**  
-   - The
+   - You can access a specific user's profile by clicking on the user's username hyperlink on a post
+   - Each profile displays the following:
+      - The user's username
+      - Number of people who follow the user and number of people who the user follows
+      - All of the user's posts (sorted in reverse chronological order)
+      - **Note**: Functions to follow and unfollow the user whose profile you are viewing is only avaliable to users with login authentication
 &nbsp;
 
 ![Profile](/network/static/network/images/profile.png?raw=true "Profile")
