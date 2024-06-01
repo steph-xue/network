@@ -1,0 +1,67 @@
+.btn-brown {
+    background-color: #ECE2DA !important;
+}
+
+.btn-brown:hover {
+    background-color: #dec7b2 !important;
+}
+
+.btn-like {
+    background-color: #dae9d6 !important;
+}
+
+.btn-like:hover {
+    background-color: #c5dfbe !important;
+}
+
+.btn-dislike {
+    background-color: #e2ccc7 !important;
+}
+
+.btn-dislike:hover {
+    background-color: #ecc2b9 !important;
+}
+
+.brownlink {
+    color: #8a5626 !important;
+}
+
+.blacklink {
+    color: black !important;
+}
+
+.brownlink {
+    color: #5e452e !important;
+}
+
+.bg-light {
+    background-color: #e8d6c7 !important;
+}
+
+.bg-brown {
+    background-color: #f8f5f4 !important;
+}
+
+.brown-text {
+    color: #8a5626 !important;
+}
+
+.follow-border {
+    border: solid 1px rgb(182, 180, 180);
+    padding: 10px;
+    margin: 5px;
+    list-style-type: None;
+}
+
+.adjust {
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.grey {
+    color: grey !important;
+}
+
+.adjust_card {
+    padding-top: -50px;
+}
