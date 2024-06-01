@@ -31,6 +31,8 @@ The network project allows the user to view, create, like, and dislike posts, as
 
 ![All Posts](/network/static/network/images/all_posts.png?raw=true "All Posts")
 <br></br>   
+![Pagination](/network/static/network/images/pagination.png?raw=true "Pagination")
+<br></br>   
    
 **2. Viewing a specific user's profile**  
    - The
@@ -50,6 +52,8 @@ The network project allows the user to view, create, like, and dislike posts, as
 **2. Editing a post**
 &nbsp;
 
+![Edit Button](/network/static/network/images/edit_button.png?raw=true "Edit Button")
+<br></br>
 ![Edit Post](/network/static/network/images/edit.png?raw=true "Edit Post")
 <br></br>
 
