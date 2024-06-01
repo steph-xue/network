@@ -31,7 +31,10 @@ The network project allows the user to view, create, like, and dislike posts, as
 
 ![All Posts](/network/static/network/images/all_posts.png?raw=true "All Posts")
 <br></br>   
+
+**Pagination Feature**
 ![Pagination](/network/static/network/images/pagination.png?raw=true "Pagination")
+All functions that show posts on the web application uses pagination, which separates the posts into separate pages with 10 posts per page. The user can use the previous and next buttons, as well as the page numbers, to access different pages of posts.
 <br></br>   
    
 **2. Viewing a specific user's profile**  
