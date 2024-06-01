@@ -42,11 +42,40 @@ The network project allows the user to view, create, like, and dislike posts, as
 
 ## Features where login authentication is needed:
 **1. Creating a new post**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
+
 **2. Editing a post**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
+
 **3. Following/Unfollowing a user**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
+
 **4. Liking/Removing a like from a post**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
+
 **5. Disliking/Removing a dislike from a post**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
+
 **6. Viewing following posts page**
+&nbsp;
+
+![Profile](/auctions/static/auctions/images/profile.png?raw=true "Profile")
+<br></br>
 
 
 ## Specifications and How to Run
