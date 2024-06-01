@@ -41,7 +41,7 @@ All functions that show posts on the web application uses pagination, which sepa
    - You can access a specific user's profile by clicking on the user's username hyperlink on a post
    - Each profile displays the following:
       - The user's username
-      - Number of people who follow the user and number of people who the user follows
+      - The number of people who follow the user and the number of people who the user follows
       - All of the user's posts (sorted in reverse chronological order)
       - **Note**: Functions to follow and unfollow the user whose profile you are viewing is only avaliable to users with login authentication
 &nbsp;
@@ -52,12 +52,18 @@ All functions that show posts on the web application uses pagination, which sepa
 
 ## Features where login authentication is needed:
 **1. Creating a new post**
+   - Can be accessed via the 'Create Post' tab
+   - Users can create a new post by providing the post's contents:
+   - The new post will specify the user as the creator of the post, and will display the date and time the post was made
 &nbsp;
 
 ![Create Post](/network/static/network/images/create.png?raw=true "Create Post")
 <br></br>
 
 **2. Editing a post**
+   - Users can edit a post they previously made
+   - This can be done by clicking on the edit button displayed underneath their post
+   - A pop up modal will allow the user to make changes to the current post content and save the changes
 &nbsp;
 
 ![Edit Button](/network/static/network/images/edit_button.png?raw=true "Edit Button")
