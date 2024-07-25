@@ -110,7 +110,11 @@ All functions that show posts on the web application uses pagination, which sepa
 ![Following Posts](/network/static/network/images/following.png?raw=true "Following Posts")
 <br></br>
 
+## Languages & Frameworks
+- The email project was created using Django, a Python-based web framework, for the backend
+- JavaScript was utilized for the front end to create a mix of possible user interactions
 
-## Specifications and How to Run
-- The email project was created using Django, a Python-based web framework, for the backend and JavaScript for the front end to create a mix of possible user interactions
-- The web application can be run in the terminal using 'python3 manage.py runserver'
+## How to Run
+- Install the latest version of python
+- Install Django by typing in the command line 'pip3 install Django'
+- The web application can be run on your local server by typing in the command line 'python3 manage.py runserver'
