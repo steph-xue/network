@@ -16,7 +16,7 @@ A full stack social networking web application where users can create posts, lik
 
 ## Overview
 
-This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, Font Awesome, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, and likes and dislikes, storing all of it in a SQLite database.
+This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, and likes and dislikes, storing all of it in a SQLite database.
 
 <br>
 
@@ -111,7 +111,7 @@ Logged in users can view a feed containing posts only from the users they follow
 
 | Layer | Technologies |
 |---|---|
-| Frontend | JavaScript, HTML, CSS, Font Awesome, Bootstrap |
+| Frontend | JavaScript, HTML, CSS, Bootstrap |
 | Backend | Django, Python |
 | Database | SQLite |
 
