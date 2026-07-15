@@ -1,134 +1,184 @@
-# Network Project
-The network project allows the user to view, create, like, and dislike posts, as well as follow other users in a social media based networking web application.
-<br></br>
+# Network
 
-## Network App
-**Login**
-- Allows the user to login to their account
-&nbsp;
+A full stack social networking web application where users can create posts, like and dislike posts made by others, and follow other users to build a personalized feed.
 
-![Login](/network/static/network/images/login.png?raw=true "Login")
-<br></br>
+<br>
 
-**Register for a New Account**
-- Allows the user to register for a new account
-&nbsp;
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How It Works](#how-it-works)
+- [Getting Started](#getting-started)
+- [Future Improvements](#future-improvements)
 
-![Register](/network/static/network/images/register.png?raw=true "Register")
-<br></br>
+<br>
 
-## Features where login authentication is not needed:
-**1. Viewing all posts page (homepage)**  
-   - The user can view a list of all posts (sorted in reverse chronological order)
-   - This can be accessed via the 'Network' logo or 'All Posts' tab
-   - Each post displays the following:
-     - User who made the post (with a hyperlink to their profile)
-     - Post content
-     - Date and time post was made
-     - Number of likes and dislikes
-     - **Note**: Functions to edit, like, remove a like, dislike, and remove a dislike are only avaliable to users with login authentication
-&nbsp;
+## Overview
 
-![All Posts](/network/static/network/images/all_posts.png?raw=true "All Posts")
-<br></br>   
+This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, Font Awesome, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, and likes and dislikes, storing all of it in a SQLite database.
 
-**Pagination Feature**
-![Pagination](/network/static/network/images/pagination.png?raw=true "Pagination")
-All functions that show posts on the web application uses pagination, which separates the posts into separate pages with a maximum of 10 posts per page. The user can use the previous and next buttons, as well as the page numbers, to access different pages of posts.
-<br></br>   
-   
-**2. Viewing a specific user's profile**  
-   - You can access a specific user's profile by clicking on the user's username hyperlink on a post
-   - Your own profile can be accessed by clicking on your username tab in the navigation bar
-   - Each profile displays the following:
-      - The user's username
-      - The number of people who follow the user and the number of people who the user follows
-      - All of the user's posts (sorted in reverse chronological order)
-      - **Note**: Functions to follow and unfollow a user on their profile are only avaliable to users with login authentication
-&nbsp;
+<br>
 
-![Profile](/network/static/network/images/profile.png?raw=true "Profile")
-<br></br>
+## Features
 
+### Authentication
+Users can log in with an existing account or register for a new one. Once logged in, users gain access to posting, liking, disliking, following, and editing their own posts, while all posts remain visible to logged out visitors.
 
-## Features where login authentication is needed:
-**1. Creating a new post**
-   - Can be accessed via the 'Create Post' tab
-   - Users can create a new post by providing the post's contents
-   - The new post will specify the user as the creator of the post, and will display the date and time the post was made
-&nbsp;
+<p align="center"><b>Login</b></p>
+<p align="center"><img src="/network/static/network/images/login.png?raw=true" alt="Login" width="700"></p>
 
-![Create Post](/network/static/network/images/create.png?raw=true "Create Post")
-<br></br>
+<p align="center"><b>Register</b></p>
+<p align="center"><img src="/network/static/network/images/register.png?raw=true" alt="Register" width="700"></p>
 
-**2. Editing a post**
-   - Users can edit a post they previously made
-   - This can be done by clicking on the edit button displayed underneath their own post
-   - A pop up modal will allow the user to make changes to the post content and save the changes
-&nbsp;
+<br>
 
-![Edit Button](/network/static/network/images/edit_button.png?raw=true "Edit Button")
-<br></br>
-![Edit Post](/network/static/network/images/edit.png?raw=true "Edit Post")
-<br></br>
+### All Posts
+The homepage displays every post on the platform in reverse chronological order. Each post shows the author, with a link to their profile, the post content, the date and time it was made, and its current number of likes and dislikes.
 
-**3. Following/Unfollowing a user**
-   - Users can follow and unfollow other users
-   - This can be done by clicking on the follow or unfollow button located on a specific user's profile page
-&nbsp;
+<p align="center"><img src="/network/static/network/images/all_posts.png?raw=true" alt="All Posts" width="700"></p>
 
-![Follow](/network/static/network/images/follow.png?raw=true "Follow")
-<br></br>
-![Unfollow](/network/static/network/images/unfollow.png?raw=true "Unfollow")
-<br></br>
+<br>
 
-**4. Liking/Removing a like from a post**
-   - Users can like or remove a like from a specific post
-   - This can be done by clicking on the like or remove like button located at the bottom of a user's posts
-&nbsp;
+### Pagination
+Every page that lists posts, including the homepage, profile pages, and the following feed, is paginated to a maximum of ten posts per page. Users can move between pages using the previous and next buttons or by selecting a page number directly.
 
-![Like](/network/static/network/images/like.png?raw=true "Like")
-<br></br>
-![Remove like](/network/static/network/images/remove_like.png?raw=true "Remove Like")
-<br></br>
+<p align="center"><img src="/network/static/network/images/pagination.png?raw=true" alt="Pagination" width="700"></p>
 
-**5. Disliking/Removing a dislike from a post**
-   - Users can dislike or remove a dislike from a specific post
-   - This can be done by clicking on the dislike or remove dislike button located at the bottom of a user's posts
-&nbsp;
+<br>
 
-![Dislike](/network/static/network/images/dislike.png?raw=true "Dislike")
-<br></br>
-![Remove dislike](/network/static/network/images/remove_dislike.png?raw=true "Remove Dislike")
-<br></br>
+### Profile
+Each user has a profile page showing their username, their follower and following counts, and all of their posts in reverse chronological order. A user's own profile is accessible from the navigation bar, and any other user's profile can be reached by clicking their username on a post.
 
-**6. Viewing following posts page**
-   - The user can view a list of posts only from users who they currently follow (sorted in reverse chronological order)
-   - This can be accessed via the 'Following' tab
-&nbsp;
+<p align="center"><img src="/network/static/network/images/profile.png?raw=true" alt="Profile" width="700"></p>
 
-![Following Posts](/network/static/network/images/following.png?raw=true "Following Posts")
-<br></br>
+<br>
 
-## Languages & Frameworks
-- The email project was created using Django, a Python-based web framework, for the backend
-- JavaScript was utilized for the front end to create a mix of possible user interactions
+### Create Post
+Logged in users can create a new post by entering its content. The post is saved with the current user as the author along with the date and time it was made, and appears immediately at the top of the homepage.
 
-## Languages & Frameworks
-- The wiki project was created using Django, a Python-based web framework
-- JavaScript was utilized to create a single-page web application with dynamic user interfaces
+<p align="center"><img src="/network/static/network/images/create.png?raw=true" alt="Create Post" width="700"></p>
 
-## How to Run Locally
-- Install the latest version of python
-    - Check the version using the command
-        - ```python --version```
-- Clone the repository from github by typing in the command line
-    - HTTPS: ```git clone https://github.com/steph-xue/network.git```
-    - SSH: ```git clone git@github.com:steph-xue/network.git```
-- Install any dependencies by using the command
-    - ```pip install -r requirements.txt```
-- Apply database migrations by typing in the command line
-    - ```python3 manage.py makemigrations```
-    - ```python3 manage.py migrate```
-- The web application can be run on your local server by typing the command
-    - ```python3 manage.py runserver```
+<br>
+
+### Edit Post
+Users can edit the content of their own posts. Clicking the edit button on a post opens a pop up form where the content can be updated and saved, and the post updates in place without reloading the page.
+
+<p align="center"><b>Edit Button</b></p>
+<p align="center"><img src="/network/static/network/images/edit_button.png?raw=true" alt="Edit Button" width="700"></p>
+
+<p align="center"><b>Edit Form</b></p>
+<p align="center"><img src="/network/static/network/images/edit.png?raw=true" alt="Edit Post" width="700"></p>
+
+<br>
+
+### Follow and Unfollow
+Users can follow or unfollow other users directly from their profile page. Following a user adds their posts to the follower's personalized feed, and the follow and unfollow buttons update immediately to reflect the change.
+
+<p align="center"><b>Follow</b></p>
+<p align="center"><img src="/network/static/network/images/follow.png?raw=true" alt="Follow" width="700"></p>
+
+<p align="center"><b>Unfollow</b></p>
+<p align="center"><img src="/network/static/network/images/unfollow.png?raw=true" alt="Unfollow" width="700"></p>
+
+<br>
+
+### Like and Dislike
+Users can like or dislike any post, and remove their reaction at any time. Each post displays its current like and dislike counts, which update instantly whenever a reaction is added or removed.
+
+<p align="center"><b>Like</b></p>
+<p align="center"><img src="/network/static/network/images/like.png?raw=true" alt="Like" width="700"></p>
+
+<p align="center"><b>Remove Like</b></p>
+<p align="center"><img src="/network/static/network/images/remove_like.png?raw=true" alt="Remove Like" width="700"></p>
+
+<p align="center"><b>Dislike</b></p>
+<p align="center"><img src="/network/static/network/images/dislike.png?raw=true" alt="Dislike" width="700"></p>
+
+<p align="center"><b>Remove Dislike</b></p>
+<p align="center"><img src="/network/static/network/images/remove_dislike.png?raw=true" alt="Remove Dislike" width="700"></p>
+
+<br>
+
+### Following Feed
+Logged in users can view a feed containing posts only from the users they follow, sorted in reverse chronological order, giving them a personalized alternative to the main homepage.
+
+<p align="center"><img src="/network/static/network/images/following.png?raw=true" alt="Following Posts" width="700"></p>
+
+<br>
+
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| Frontend | JavaScript, HTML, CSS, Font Awesome, Bootstrap |
+| Backend | Django, Python |
+| Database | SQLite |
+
+<br>
+
+## How It Works
+
+Each page extends a shared Bootstrap layout, which keeps the navigation bar and overall structure consistent across the site while the main content changes per page. Most navigation, including viewing posts, profiles, and the following feed, is handled through standard Django views and templates. Actions that need to feel instant, such as liking, disliking, and editing a post, are handled differently. JavaScript sends an asynchronous request to a dedicated Django endpoint for that action, the backend updates the database and returns a JSON response, and the JavaScript updates only the relevant part of the page, such as a like count or the post content, without a full reload. Posts, follower relationships, likes, and dislikes are all stored as related records in a SQLite database through Django's models.
+
+<br>
+
+## Getting Started
+
+Follow the steps below to set up and run the application on your own machine.
+
+**Prerequisites**
+
+Make sure Python 3 is installed before you begin. You can check by running the command below, which should print a version number.
+```bash
+python --version
+```
+
+**1. Clone the repository**
+
+This downloads a copy of the project to your computer and moves you into the project folder.
+```bash
+git clone https://github.com/steph-xue/network.git
+cd network
+```
+
+**2. Create and activate a virtual environment (recommended)**
+
+This keeps the project's dependencies separate from other Python projects on your machine.
+```bash
+python3 -m venv venv
+source venv/bin/activate      # On Windows use: venv\Scripts\activate
+```
+
+**3. Install the dependencies**
+
+This installs Django and everything else the project needs to run.
+```bash
+pip install -r requirements.txt
+```
+
+**4. Set up the database**
+
+This creates the local database and the tables the application relies on.
+```bash
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+**5. Start the development server**
+
+This runs the application locally.
+```bash
+python3 manage.py runserver
+```
+
+Once the server is running, open `http://127.0.0.1:8000/` in your browser to start using the application.
+
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Comments on posts
+- Direct messaging between users
+- Notifications for new followers and post reactions
+- A live hosted demo to allow users to try the application without a local setup
