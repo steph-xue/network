@@ -1,6 +1,6 @@
 # Network
 
-A full stack social networking web application where users can create posts, like and dislike posts made by others, and follow other users to build a personalized feed.
+A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed, and actions such as liking, disliking, and editing update instantly without reloading the page.
 
 <br>
 
@@ -16,7 +16,7 @@ A full stack social networking web application where users can create posts, lik
 
 ## Overview
 
-This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, and likes and dislikes, storing all of it in a SQLite database.
+This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page, giving those interactions a fast, responsive feel. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, likes, and dislikes, storing all of it in a SQLite database. Posts are paginated across every view that lists them, including the homepage, individual profiles, and each user's personalized following feed, keeping the interface organized as the amount of content grows.
 
 <br>
 
@@ -34,7 +34,7 @@ Users can log in with an existing account or register for a new one. Once logged
 <br>
 
 ### All Posts
-The homepage displays every post on the platform in reverse chronological order. Each post shows the author, with a link to their profile, the post content, the date and time it was made, and its current number of likes and dislikes.
+The homepage displays every post on the platform in reverse chronological order. Each post shows the author, with a link to their profile, the post content, the date and time it was made, and its current number of likes and dislikes, giving users a quick overview of activity across the whole platform.
 
 <p align="center"><img src="/network/static/network/images/all_posts.png?raw=true" alt="All Posts" width="700"></p>
 
@@ -62,7 +62,7 @@ Logged in users can create a new post by entering its content. The post is saved
 <br>
 
 ### Edit Post
-Users can edit the content of their own posts. Clicking the edit button on a post opens a pop up form where the content can be updated and saved, and the post updates in place without reloading the page.
+Users can edit the content of their own posts, but not posts made by other users. Clicking "Edit" on a post opens a pop up form prefilled with its current content, and clicking "Save Changes" sends the update straight to the backend, so the post refreshes in place without reloading the page.
 
 <p align="center"><b>Edit Button</b></p>
 <p align="center"><img src="/network/static/network/images/edit_button.png?raw=true" alt="Edit Button" width="700"></p>
@@ -73,7 +73,7 @@ Users can edit the content of their own posts. Clicking the edit button on a pos
 <br>
 
 ### Follow and Unfollow
-Users can follow or unfollow other users directly from their profile page. Following a user adds their posts to the follower's personalized feed, and the follow and unfollow buttons update immediately to reflect the change.
+Users can follow or unfollow other users directly from their profile page by clicking "Follow" or "Unfollow," though this option does not appear on a user's own profile. Following a user adds their posts to the follower's personalized feed, and the button updates immediately to reflect the change without reloading the page.
 
 <p align="center"><b>Follow</b></p>
 <p align="center"><img src="/network/static/network/images/follow.png?raw=true" alt="Follow" width="700"></p>
@@ -84,7 +84,7 @@ Users can follow or unfollow other users directly from their profile page. Follo
 <br>
 
 ### Like and Dislike
-Users can like or dislike any post, and remove their reaction at any time. Each post displays its current like and dislike counts, which update instantly whenever a reaction is added or removed.
+Users can like or dislike any post independently, and remove either reaction at any time. Clicking "Like" or "Dislike" registers the reaction and the button switches to "Remove Like" or "Remove Dislike," and each post's like and dislike counts update instantly whenever a reaction is added or removed.
 
 <p align="center"><b>Like</b></p>
 <p align="center"><img src="/network/static/network/images/like.png?raw=true" alt="Like" width="700"></p>
