@@ -1,6 +1,6 @@
 # Network
 
-A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed, and actions such as liking, disliking, and editing update instantly without reloading the page.
+A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed to keep the interface organized.
 
 <br>
 
