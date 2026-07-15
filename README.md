@@ -11,7 +11,7 @@ A full stack social networking web application where users can create and edit p
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
-
+  
 <br>
 
 ## Overview
