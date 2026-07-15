@@ -119,7 +119,7 @@ Logged in users can view a feed containing posts only from the users they follow
 
 ## How It Works
 
-A shared Bootstrap layout keeps the navigation bar and overall structure consistent across the site while the main content changes per page. Actions that need to feel instant, such as liking, disliking, and editing a post, are handled by JavaScript, which sends an asynchronous request to a dedicated Django endpoint for that action and updates only the relevant part of the page, such as a like count or the post content, without a full reload. Most other navigation, including viewing posts, profiles, and the following feed, is handled through standard Django views and templates that render on the server. Posts, follower relationships, likes, and dislikes are all stored as related records in a SQLite database through Django's models.
+The interface is built around a single persistent Bootstrap layout, so the navigation bar and overall page structure stay in place while only the content area changes as users move between the homepage, profiles, and their feed. Actions that need to feel instant, such as liking, disliking, and editing a post, are handled by JavaScript, which sends an asynchronous request to a dedicated Django endpoint for that action and updates only the relevant part of the page, such as a like count or the post content, without a full reload. Most other navigation, including viewing posts, profiles, and the following feed, is handled through standard Django views and templates that render on the server. Posts, follower relationships, likes, and dislikes are all stored as related records in a SQLite database through Django's models.
 
 <br>
 
