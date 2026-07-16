@@ -9,8 +9,8 @@ A full stack social networking web application where users can create and edit p
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
   
 <br>
 
@@ -123,6 +123,15 @@ The interface is built around a single persistent Bootstrap layout, so the navig
 
 <br>
 
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Comments on posts
+- Direct messaging between users
+- Notifications for new followers and post reactions
+- A live hosted demo to allow users to try the application without a local setup
+
+<br>
+
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
@@ -173,12 +182,3 @@ python3 manage.py runserver
 ```
 
 Once the server is running, open `http://127.0.0.1:8000/` in your browser to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- Comments on posts
-- Direct messaging between users
-- Notifications for new followers and post reactions
-- A live hosted demo to allow users to try the application without a local setup
