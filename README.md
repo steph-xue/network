@@ -1,6 +1,14 @@
-# Network
+<h1 align="center">
+  Network
+</h1>
 
-A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed to keep the interface organized.
+<h4 align="center">
+  A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed to keep the interface organized.
+</h4>
+
+<p align="center">
+  <img src="/network/static/network/images/all_posts.png?raw=true" alt="All Posts" width="500">
+</p>
 
 <br>
 
