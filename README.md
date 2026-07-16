@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  A full stack social networking web application where users can create and edit posts, like and dislike posts made by others, and follow other users to build a personalized feed. Posts are paginated across the homepage, profile pages, and following feed to keep the interface organized.
+  A full-stack social networking web application where users can create posts, edit posts, like/dislike posts made by others, and follow other users to build a personalized feed.
 </h4>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ## Overview
 
-This project recreates the core experience of a social media platform. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page, giving those interactions a fast, responsive feel. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, likes, and dislikes, storing all of it in a SQLite database. Posts are paginated across every view that lists them, including the homepage, individual profiles, and each user's personalized following feed, keeping the interface organized as the amount of content grows.
+This project recreates the core experience of a social media platform, allowing users to create and edit posts, like or dislike posts made by others, follow other users, and build a personalized feed based on the accounts they follow. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and handles actions such as liking, disliking, and editing posts without reloading the page, giving those interactions a fast, responsive feel. The backend is built with Django and Python, and manages user accounts, posts, follower relationships, likes, and dislikes, storing all of it in a SQLite database. Posts are paginated across every view that lists them, including the homepage, individual profiles, and each user’s personalized following feed, keeping the interface organized as the amount of content grows.
 
 <br>
 
