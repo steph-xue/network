@@ -3,7 +3,8 @@
 </h1>
 
 <h4 align="center">
-  A full-stack social networking web application where users can create posts, edit posts, like/dislike posts made by others, and follow other users to build a personalized feed.
+  A full-stack social networking web application where users can create posts, edit posts, <br>
+  like/dislike posts made by others, and follow other users to build a personalized feed.
 </h4>
 
 <p align="center">
