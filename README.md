@@ -8,7 +8,7 @@
 </h4>
 
 <p align="center">
-  <img src="assets/screenshots/all_posts.png?raw=true" alt="All Posts" width="500">
+  <img src="docs/screenshots/all_posts.png?raw=true" alt="All Posts" width="500">
 </p>
 
 <br>
@@ -35,38 +35,38 @@ This project recreates the core experience of a social media platform, allowing 
 Users can log in with an existing account or register for a new one. Once logged in, users gain access to posting, liking, disliking, following, and editing their own posts, while all posts remain visible to logged out visitors.
 
 <p align="center"><b>Login</b></p>
-<p align="center"><img src="assets/screenshots/login.png?raw=true" alt="Login" width="700"></p>
+<p align="center"><img src="docs/screenshots/login.png?raw=true" alt="Login" width="700"></p>
 
 <p align="center"><b>Register</b></p>
-<p align="center"><img src="assets/screenshots/register.png?raw=true" alt="Register" width="700"></p>
+<p align="center"><img src="docs/screenshots/register.png?raw=true" alt="Register" width="700"></p>
 
 <br>
 
 ### All Posts
 The homepage displays every post on the platform in reverse chronological order. Each post shows the author, with a link to their profile, the post content, the date and time it was made, and its current number of likes and dislikes, giving users a quick overview of activity across the whole platform.
 
-<p align="center"><img src="assets/screenshots/all_posts.png?raw=true" alt="All Posts" width="700"></p>
+<p align="center"><img src="docs/screenshots/all_posts.png?raw=true" alt="All Posts" width="700"></p>
 
 <br>
 
 ### Pagination
 Every page that lists posts, including the homepage, profile pages, and the following feed, is paginated to a maximum of ten posts per page. Users can move between pages using the previous and next buttons or by selecting a page number directly.
 
-<p align="center"><img src="assets/screenshots/pagination.png?raw=true" alt="Pagination" width="700"></p>
+<p align="center"><img src="docs/screenshots/pagination.png?raw=true" alt="Pagination" width="700"></p>
 
 <br>
 
 ### Profile
 Each user has a profile page showing their username, their follower and following counts, and all of their posts in reverse chronological order. A user's own profile is accessible from the navigation bar, and any other user's profile can be reached by clicking their username on a post.
 
-<p align="center"><img src="assets/screenshots/profile.png?raw=true" alt="Profile" width="700"></p>
+<p align="center"><img src="docs/screenshots/profile.png?raw=true" alt="Profile" width="700"></p>
 
 <br>
 
 ### Create Post
 Logged in users can create a new post by entering its content. The post is saved with the current user as the author along with the date and time it was made, and appears immediately at the top of the homepage.
 
-<p align="center"><img src="assets/screenshots/create.png?raw=true" alt="Create Post" width="700"></p>
+<p align="center"><img src="docs/screenshots/create.png?raw=true" alt="Create Post" width="700"></p>
 
 <br>
 
@@ -74,10 +74,10 @@ Logged in users can create a new post by entering its content. The post is saved
 Users can edit the content of their own posts, but not posts made by other users. Clicking "Edit" on a post opens a pop up form prefilled with its current content, and clicking "Save Changes" sends the update straight to the backend, so the post refreshes in place without reloading the page.
 
 <p align="center"><b>Edit Button</b></p>
-<p align="center"><img src="assets/screenshots/edit_button.png?raw=true" alt="Edit Button" width="700"></p>
+<p align="center"><img src="docs/screenshots/edit_button.png?raw=true" alt="Edit Button" width="700"></p>
 
 <p align="center"><b>Edit Form</b></p>
-<p align="center"><img src="assets/screenshots/edit.png?raw=true" alt="Edit Post" width="700"></p>
+<p align="center"><img src="docs/screenshots/edit.png?raw=true" alt="Edit Post" width="700"></p>
 
 <br>
 
@@ -85,10 +85,10 @@ Users can edit the content of their own posts, but not posts made by other users
 Users can follow or unfollow other users directly from their profile page by clicking "Follow" or "Unfollow," though this option does not appear on a user's own profile. Following a user adds their posts to the follower's personalized feed, and the button updates immediately to reflect the change without reloading the page.
 
 <p align="center"><b>Follow</b></p>
-<p align="center"><img src="assets/screenshots/follow.png?raw=true" alt="Follow" width="700"></p>
+<p align="center"><img src="docs/screenshots/follow.png?raw=true" alt="Follow" width="700"></p>
 
 <p align="center"><b>Unfollow</b></p>
-<p align="center"><img src="assets/screenshots/unfollow.png?raw=true" alt="Unfollow" width="700"></p>
+<p align="center"><img src="docs/screenshots/unfollow.png?raw=true" alt="Unfollow" width="700"></p>
 
 <br>
 
@@ -96,23 +96,23 @@ Users can follow or unfollow other users directly from their profile page by cli
 Users can like or dislike any post independently, and remove either reaction at any time. Clicking "Like" or "Dislike" registers the reaction and the button switches to "Remove Like" or "Remove Dislike," and each post's like and dislike counts update instantly whenever a reaction is added or removed.
 
 <p align="center"><b>Like</b></p>
-<p align="center"><img src="assets/screenshots/like.png?raw=true" alt="Like" width="700"></p>
+<p align="center"><img src="docs/screenshots/like.png?raw=true" alt="Like" width="700"></p>
 
 <p align="center"><b>Remove Like</b></p>
-<p align="center"><img src="assets/screenshots/remove_like.png?raw=true" alt="Remove Like" width="700"></p>
+<p align="center"><img src="docs/screenshots/remove_like.png?raw=true" alt="Remove Like" width="700"></p>
 
 <p align="center"><b>Dislike</b></p>
-<p align="center"><img src="assets/screenshots/dislike.png?raw=true" alt="Dislike" width="700"></p>
+<p align="center"><img src="docs/screenshots/dislike.png?raw=true" alt="Dislike" width="700"></p>
 
 <p align="center"><b>Remove Dislike</b></p>
-<p align="center"><img src="assets/screenshots/remove_dislike.png?raw=true" alt="Remove Dislike" width="700"></p>
+<p align="center"><img src="docs/screenshots/remove_dislike.png?raw=true" alt="Remove Dislike" width="700"></p>
 
 <br>
 
 ### Following Feed
 Logged in users can view a feed containing posts only from the users they follow, sorted in reverse chronological order, giving them a personalized alternative to the main homepage.
 
-<p align="center"><img src="assets/screenshots/following.png?raw=true" alt="Following Posts" width="700"></p>
+<p align="center"><img src="docs/screenshots/following.png?raw=true" alt="Following Posts" width="700"></p>
 
 <br>
 
