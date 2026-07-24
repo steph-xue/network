@@ -155,6 +155,7 @@ Make sure Python 3 is installed before you begin. You can check by running the c
 ```bash
 python3 --version 
 ```
+
 <br>
 
 **1. Clone the repository**
