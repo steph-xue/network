@@ -144,16 +144,15 @@ Several enhancements are planned to extend the functionality of the application:
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine. 
-> **Note:** This project requires Python 3.6-3.12. Django 3.2.25 is not currently compatible with Python 3.13 or later, since it relies on the `cgi` module, which was removed in Python 3.13.
 
 <br>
 
 **Prerequisites**
 
 Make sure Python 3 is installed before you begin. You can check by running the command below, which should print a version number.
-> **Note:** On Windows, replace `python3` with `python` in the commands below.
+> **Note:** This project requires Python 3.6-3.12. Django 3.2.25 is not currently compatible with Python 3.13 or later, since it relies on the `cgi` module, which was removed in Python 3.13.
 ```bash
-python3 --version 
+python3 --version  # On Windows use: python --version
 ```
 
 <br>
@@ -170,8 +169,8 @@ cd network
 
 This keeps the project's dependencies separate from other Python projects on your machine.
 ```bash
-python3 -m venv venv
-source venv/bin/activate      # On Windows use: venv\Scripts\activate
+python3 -m venv venv      # On Windows use: python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
 **3. Install the dependencies**
@@ -185,15 +184,15 @@ pip install -r requirements.txt
 
 This creates the local database and the tables the application relies on.
 ```bash
-python3 manage.py makemigrations
-python3 manage.py migrate
+python3 manage.py makemigrations  # On Windows use: python manage.py makemigrations
+python3 manage.py migrate         # On Windows use: python manage.py migrate
 ```
 
 **5. Start the development server**
 
 This runs the application locally.
 ```bash
-python3 manage.py runserver
+python3 manage.py runserver  # On Windows use: python manage.py runserver
 ```
 
 Once the server is running, open `http://127.0.0.1:8000/` in your browser to start using the application.
