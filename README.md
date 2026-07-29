@@ -150,14 +150,14 @@ Follow the steps below to set up and run the application on your own machine.
 **Prerequisites**
 
 Make sure Python 3 is installed before you begin. You can check by running the command below, which should print a version number.
-> **Note:** This project requires Python 3.6-3.12. Django 3.2.25 is not currently compatible with Python 3.13 or later, since it relies on the `cgi` module, which was removed in Python 3.13.
+> **Note:** This project requires Python 3.10+, per Django 5.2's supported versions.
 ```bash
 python3 --version  # On Windows use: python --version
 ```
 
 <br>
 
-**1. Clone the repository**
+**1. Clone the Repository**
 
 This downloads a copy of the project to your computer and moves you into the project folder.
 ```bash
@@ -165,7 +165,7 @@ git clone https://github.com/steph-xue/network.git
 cd network
 ```
 
-**2. Create and activate a virtual environment (recommended)**
+**2. Create and Activate a Python Virtual Environment**
 
 This keeps the project's dependencies separate from other Python projects on your machine.
 ```bash
@@ -173,22 +173,29 @@ python3 -m venv venv      # On Windows use: python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
-**3. Install the dependencies**
+**3. Install the Dependencies**
 
-This installs Django and everything else the project needs to run.
+This installs all dependencies the project needs to run.
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Set up the database**
+**4. Set Up the Database**
 
-This creates the local database and the tables the application relies on.
+This creates a local SQLite database for the application.
 ```bash
 python3 manage.py makemigrations  # On Windows use: python manage.py makemigrations
 python3 manage.py migrate         # On Windows use: python manage.py migrate
 ```
 
-**5. Start the development server**
+**5. Populate the Database with Demo Data**
+
+This populates the SQLite database with sample demo data.
+```bash
+python3 manage.py seed_data  # On Windows use: python manage.py seed_data
+```
+
+**6. Start the Development Server**
 
 This runs the application locally.
 ```bash
